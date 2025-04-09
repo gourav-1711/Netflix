@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            top: 0% !important;
+        }
+
+        iframe {
+            display: none !important;
+        }
+
+        .skiptranslate span {
+            display: none;
+        }
+
+        .goog-te-combo {
+            font-size: 22px;
+            color: rgb(255, 255, 255) !important;
+        }
+
+        .goog-te-combo option {
+            color: black;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+
+
+<body>
+
+
+    <div
+        class="fixed z-[-2] top-[0%] w-full bg-[url(images/IN-en-20250331-TRIFECTA-perspective_ed11f76a-3e10-41ea-a60d-9008d2b6c103_large.jpg)] bg-cover h-[100vh] blur-[5px] ]">
+
+    </div>
+    <div
+        class="bg-[rgb(0,0,0,0.5)]  bg-[linear-gradient(0deg,_rgba(0,0,0,0.8596230728619573)_5%,_rgba(73,9,55,0.5599031849067753)_74%,_rgba(0,0,0,0.6439367983521533)_98%)]  w-full h-[100%] fixed z-[-1] top-[0%]">
+    </div>
+
+    <header class="max-w-[1200px] shadow-lg mx-auto">
+        <nav class="w-full flex justify-between p-[0px_10px]">
+            <aside class="w-[50%]"> <img src="images/Netflix_Logo_PMS.png" alt="" class="w-[60%] md:w-[40%] lg:w-[30%]">
+            </aside>
+            <aside class="w-[50%] flex justify-end gap-[15px] items-center ">
+                <button class="text-[white] mt-[22px] " id="google_translator"> </button>
+                <button
+                    class="bg-[white] text-[black] text-[13px] table p-[5px_15px]  border rounded-[10px] lg:rounded-[25px] font-semibold hover:bg-[black] hover:text-[white] duration-[0.4s] ">
+                    Sign in</button>
+            </aside>
+        </nav>
+    </header>
+
+    <section class="slider max-w-[1200px] shadow-lg mx-auto">
+        <div class="swiper-container mySwiper slider1 overflow-hidden w-[90%] mx-auto">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide rounded-[30px]">
+                    <img src="images/IN-en-20250331-TRIFECTA-perspective_ed11f76a-3e10-41ea-a60d-9008d2b6c103_large.jpg"
+                        class="rounded-[30px] relative" />
+
+                    <div class="absolute top-[0%] left-[0%] w-full h-[100%] bg-[rgb(0,0,0,0.5)] rounded-[30px]">
+                        <h2 class="text-[white] text-[50px] uppercase text-shadow-md ">
+                            slide 1
+                        </h2>
+                    </div>
+                </div>
+                <div class="swiper-slide rounded-[30px]">
+                    <img src="images/IN-en-20250331-TRIFECTA-perspective_ed11f76a-3e10-41ea-a60d-9008d2b6c103_large.jpg"
+                        class="rounded-[30px] relative" />
+                    <div class="absolute top-[0%] left-[0%] w-full h-[100%] bg-[rgb(0,0,0,0.5)] rounded-[30px]">
+                        <h2 class="text-[white] text-[50px] uppercase text-shadow-md">
+                            slide 2
+                        </h2>
+                    </div>
+                </div>
+                <div class="swiper-slide rounded-[30px]">
+                    <img src="images/IN-en-20250331-TRIFECTA-perspective_ed11f76a-3e10-41ea-a60d-9008d2b6c103_large.jpg"
+                        class="rounded-[30px] relative" />
+                    <div class="absolute top-[0%] left-[0%] w-full h-[100%] bg-[rgb(0,0,0,0.5)] rounded-[30px]">
+                        <h2 class="text-[white] text-[50px] uppercase text-shadow-md">
+                            slide 3
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="w-full">
+        <section class="max-w-[1200px] mt-[20px] mx-auto flex flex-col py-[20px]">
+
+            <div class="main w-[85%] mx-auto">
+                <div class="text-[38px] capitalize text-[#D5C7CB] font-semibold "> trending now</div>
+                <div class="swiper mySwiper swiper-10 w-full ">
+                    <div class="swiper-wrapper h-[300px]">
+                        <div class="swiper-slide"><img src="images/slide1.webp" alt=""
+                                class="h-[300px] rounded-[20px] w-[100%] border-[3px] border-[transparent] hover:border-[3px] hover:border-[white] relative">
+                            <p
+                                class="absolute top-[-8%] left-[-6%] text-[38px] text-[white] p-[10px_5px] stroke-[white] stroke-[3px] text-shadow-[2px_0px_6px_black]">
+                                1</p>
+                        </div>
+                        <div class="swiper-slide"><img src="images/slide2.webp" alt=""
+                                class="h-[300px] rounded-[20px] w-[100%] border-[3px] border-[transparent] hover:border-[3px] hover:border-[white] relative">
+                            <p
+                                class="absolute top-[-8%] left-[-6%] text-[38px] text-[white] p-[10px_5px] stroke-[white] stroke-[3px] text-shadow-[2px_0px_6px_black]">
+                                2</p>
+                        </div>
+                        <div class="swiper-slide"><img src="images/slide3.webp" alt=""
+                                class="h-[300px] rounded-[20px] w-[100%] border-[3px] border-[transparent] hover:border-[3px] hover:border-[white] relative">
+                            <p
+                                class="absolute top-[-8%] left-[-6%] text-[38px] text-[white] p-[10px_5px] stroke-[white] stroke-[3px] text-shadow-[2px_0px_6px_black]">
+                                3</p>
+                        </div>
+                        <div class="swiper-slide"><img src="images/slide4.webp" alt=""
+                                class="h-[300px] rounded-[20px] w-[100%] border-[3px] border-[transparent] hover:border-[3px] hover:border-[white] relative">
+                            <p
+                                class="absolute top-[-8%] left-[-6%] text-[38px] text-[white] p-[10px_5px] stroke-[white] stroke-[3px] text-shadow-[2px_0px_6px_black]">
+                                4</p>
+                        </div>
+                        <div class="swiper-slide"><img src="images/slide5.webp" alt=""
+                                class="h-[300px] rounded-[20px] w-[100%] border-[3px] border-[transparent] hover:border-[3px] hover:border-[white] relative">
+                            <p
+                                class="absolute top-[-8%] left-[-6%] text-[38px] text-[white] p-[10px_5px] stroke-[white] stroke-[3px] text-shadow-[2px_0px_6px_black]">
+                                5</p>
+                        </div>
+                        <div class="swiper-slide"><img src="images/slide6.webp" alt=""
+                                class="h-[300px] rounded-[20px] w-[100%] border-[3px] border-[transparent] hover:border-[3px] hover:border-[white] relative">
+                            <p
+                                class="absolute top-[-8%] left-[-6%] text-[38px] text-[white] p-[10px_5px] stroke-[white] stroke-[3px] text-shadow-[2px_0px_6px_black]">
+                                6</p>
+                        </div>
+                        <div class="swiper-slide"><img src="images/slide7.webp" alt=""
+                                class="h-[300px] rounded-[20px] w-[100%] border-[3px] border-[transparent] hover:border-[3px] hover:border-[white] relative">
+                            <p
+                                class="absolute top-[-8%] left-[-6%] text-[38px] text-[white] p-[10px_5px] stroke-[white] stroke-[3px] text-shadow-[2px_0px_6px_black]">
+                                7</p>
+                        </div>
+                        <div class="swiper-slide"><img src="images/slide8.webp" alt=""
+                                class="h-[300px] rounded-[20px] w-[100%] border-[3px] border-[transparent] hover:border-[3px] hover:border-[white] relative">
+                            <p
+                                class="absolute top-[-8%] left-[-6%] text-[38px] text-[white] p-[10px_5px] stroke-[white] stroke-[3px] text-shadow-[2px_0px_6px_black]">
+                                8</p>
+                        </div>
+                        <div class="swiper-slide"><img src="images/slide9.webp" alt=""
+                                class="h-[300px] rounded-[20px] w-[100%] border-[3px] border-[transparent] hover:border-[3px] hover:border-[white] relative">
+                            <p
+                                class="absolute top-[-8%] left-[-6%] text-[38px] text-[white] p-[10px_5px] stroke-[white] stroke-[3px] text-shadow-[2px_0px_6px_black]">
+                                9</p>
+                        </div>
+                        <div class="swiper-slide"><img src="images/slide10.webp" alt=""
+                                class="h-[300px] rounded-[20px] w-[100%] border-[3px] border-[transparent] hover:border-[3px] hover:border-[white] relative">
+                            <p
+                                class="absolute top-[-8%] left-[-6%] text-[38px] text-[white] p-[10px_5px] stroke-[white] stroke-[3px] text-shadow-[2px_0px_6px_black]">
+                                10</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+
+    <section class="w-[80%] mx-auto mt-[30px]">
+        <div class="max-w-[1200px] shadow-lg mx-auto mb-[15px] capitalize text-[#DED9DA] text-[35px] font-semibold">more
+            reason to join</div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-[20px] max-w-[1200px] shadow-lg mx-auto">
+            <div class="rounded-[15px] bg-[#282727] p-[15px] relative">
+                <h1 class="text-[white] text-[18px] font-semibold capitalize"> enjoy on your tv</h1>
+                <p class="mt-[10px] text-[#BEBDBE] p-[0px_0px_40px_0px]">Watch on smart TVs, PlayStation, Xbox,
+                    Chromecast, Apple TV, Blu-ray players and more.</p>
+
+                <i
+                    class="fa-solid fa-tv text-[white] p-[20px] text-[22px] justify-self-end absolute top-[70%] right-[0%]"></i>
+            </div>
+            <div class="rounded-[15px] bg-[#282727] p-[15px] relative">
+                <h1 class="text-[white] text-[18px] font-semibold capitalize"> enjoy on your tv</h1>
+                <p class="mt-[10px] text-[#BEBDBE] p-[0px_0px_40px_0px]">Watch on smart TVs, PlayStation, Xbox,
+                    Chromecast, Apple TV, Blu-ray players and more.</p>
+
+                <i
+                    class="fa-solid fa-tv text-[white] p-[20px] text-[22px] justify-self-end absolute top-[70%] right-[0%]"></i>
+            </div>
+            <div class="rounded-[15px] bg-[#282727] p-[15px] relative">
+                <h1 class="text-[white] text-[18px] font-semibold capitalize"> enjoy on your tv</h1>
+                <p class="mt-[10px] text-[#BEBDBE] p-[0px_0px_40px_0px]">Watch on smart TVs, PlayStation, Xbox,
+                    Chromecast, Apple TV, Blu-ray players and more.</p>
+
+                <i
+                    class="fa-solid fa-tv text-[white] p-[20px] text-[22px] justify-self-end absolute top-[70%] right-[0%]"></i>
+            </div>
+            <div class="rounded-[15px] bg-[#282727] p-[15px] relative">
+                <h1 class="text-[white] text-[18px] font-semibold capitalize"> enjoy on your tv</h1>
+                <p class="mt-[10px] text-[#BEBDBE] p-[0px_0px_40px_0px]">Watch on smart TVs, PlayStation, Xbox,
+                    Chromecast, Apple TV, Blu-ray players and more.</p>
+
+                <i
+                    class="fa-solid fa-tv text-[white] p-[20px] text-[22px] justify-self-end absolute top-[70%] right-[0%]"></i>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="w-[80%] mx-auto text-[white] mt-[30px]">
+        <div class="max-w-[1200px] shadow-lg mx-auto">
+            <h1 class="capitalize text-[#DED9DA] text-[35px] font-semibold">frequently asked question</h1>
+
+            <div class="acc mt-[15px]">
+                <div class="acc1">
+                    <div
+                        class="que flex justify-between p-[20px_15px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] hover:bg-[#5b5756] m-[15px_0px]">
+                        <h1>what is netflix</h1> <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div
+                        class="ans p-[0px_0px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] mt-[20px] h-[0px] m-[15px_0px] overflow-hidden">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae porro veniam esse
+                        eaque dolores sed consequatur nobis, harum, perferendis minus autem officiis reiciendis
+                        laudantium. Nulla consequuntur cupiditate officia! Laboriosam, nobis.
+                    </div>
+
+
+                    <div
+                        class="que flex justify-between p-[20px_15px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] hover:bg-[#5b5756] m-[15px_0px]">
+                        <h1>what is netflix</h1> <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div
+                        class="ans p-[0px_0px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] mt-[20px] h-[0px] m-[15px_0px] overflow-hidden">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae porro veniam esse
+                        eaque dolores sed consequatur nobis, harum, perferendis minus autem officiis reiciendis
+                        laudantium. Nulla consequuntur cupiditate officia! Laboriosam, nobis.
+                    </div>
+
+                    <div
+                        class="que flex justify-between p-[20px_15px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] hover:bg-[#5b5756] m-[15px_0px]">
+                        <h1>what is netflix</h1> <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div
+                        class="ans p-[0px_0px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] mt-[20px] h-[0px] m-[15px_0px] overflow-hidden">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae porro veniam esse
+                        eaque dolores sed consequatur nobis, harum, perferendis minus autem officiis reiciendis
+                        laudantium. Nulla consequuntur cupiditate officia! Laboriosam, nobis.
+                    </div>
+
+
+
+                    <div
+                        class="que flex justify-between p-[20px_15px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] hover:bg-[#5b5756] m-[15px_0px]">
+                        <h1>what is netflix</h1> <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div
+                        class="ans p-[0px_0px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] mt-[20px] h-[0px] m-[15px_0px] overflow-hidden">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae porro veniam esse
+                        eaque dolores sed consequatur nobis, harum, perferendis minus autem officiis reiciendis
+                        laudantium. Nulla consequuntur cupiditate officia! Laboriosam, nobis.
+                    </div>
+
+                    <div
+                        class="que flex justify-between p-[20px_15px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] hover:bg-[#5b5756] m-[15px_0px]">
+                        <h1>what is netflix</h1> <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div
+                        class="ans p-[0px_0px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] mt-[20px] h-[0px] m-[15px_0px] overflow-hidden">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae porro veniam esse
+                        eaque dolores sed consequatur nobis, harum, perferendis minus autem officiis reiciendis
+                        laudantium. Nulla consequuntur cupiditate officia! Laboriosam, nobis.
+                    </div>
+
+                    <div
+                        class="que flex justify-between p-[20px_15px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] hover:bg-[#5b5756] m-[15px_0px]">
+                        <h1>what is netflix</h1> <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div
+                        class="ans p-[0px_0px] text-[16px] md:text-[17px] lg:text-[19px] font-semibold capitalize rounded-[20px] bg-[#282727] mt-[20px] h-[0px] m-[15px_0px] overflow-hidden">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae porro veniam esse
+                        eaque dolores sed consequatur nobis, harum, perferendis minus autem officiis reiciendis
+                        laudantium. Nulla consequuntur cupiditate officia! Laboriosam, nobis.
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".swiper-10", {
+        slidesPerView: 7,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+
+        breakpoints: {
+            // when window width is <= 499px
+            0: {
+                slidesPerView: 2,
+                spaceBetweenSlides: 5,
+            },
+
+            500: {
+                slidesPerView: 3,
+                spaceBetweenSlides: 5,
+            },
+            // when window width is <= 999px
+            999: {
+                slidesPerView: 5,
+                spaceBetweenSlides: 10
+            },
+            1200: {
+                slidesPerView: 6,
+                spaceBetweenSlides: 10
+            }
+        }
+    });
+
+
+    var swiper = new Swiper(".slider1", {
+        spaceBetween: 30,
+        effect: "fade",
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+
+
+
+
+
+    let box = document.querySelectorAll(".box")
+    let que = document.querySelectorAll(".que")
+
+
+    // <i class="fa-solid fa-xmark"></i>
+    que.forEach((que) => {
+        que.addEventListener('click', () => {
+            let ans = que.nextElementSibling
+
+            let all = document.querySelectorAll(".ans")
+
+            let plus = que.children[1]
+            let allPlus = document.querySelectorAll(".que i")
+
+
+
+            for (let i = 0; i < all.length; i++) {
+                if (all[i] != ans) {
+                    all[i].classList.add("h-[0%]")
+                    all[i].classList.add("p-[0px_0px]")
+                    all[i].classList.remove("h-auto")
+                    all[i].classList.remove("p-[20px_15px]")
+
+
+                    allPlus[i].classList.remove("fa-xmark")
+                    allPlus[i].classList.add("fa-plus")
+                }
+
+            }
+
+            plus.classList.toggle("fa-xmark")
+            plus.classList.toggle("fa-plus")
+
+            ans.classList.toggle("h-auto")
+            ans.classList.toggle("p-[20px_15px]")
+
+            console.log(plus);
+
+        })
+    })
+
+</script>
+
+<script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            { pageLanguage: 'en' },
+            'google_translator'
+        )
+    };
+</script>
+
+</html>
